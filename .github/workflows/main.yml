@@ -9,7 +9,6 @@ name: DevOps Pipeline
 # FTP_SERVER_PRD servidor de hostinger
 # FTP_USERNAME_PRD usuario de ftp de hostinger
 # FTP_PASSWORD_PRD contraseña del usuario de ftp
-# DATABASE_SCRIPT es el nombre del script.sql que se debera subir en el codigo para poder importar la base de datos
 # Author: Gaston Barbaccia
 
 on:
