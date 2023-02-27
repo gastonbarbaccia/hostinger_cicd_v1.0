@@ -1,7 +1,7 @@
 name: DevOps Pipeline
 
 # Crear las siguientes variables como secrets dentro del settings del proyecto
-# GITHUB_TOKEN es un token de github que se puede crear con otro nombre de ser necesario, recordar colocar el nombre en el main.yml
+# TOKEN_GITHUB es un token de github que se puede crear con otro nombre de ser necesario, recordar colocar el nombre en el main.yml
 # SONAR_TOKEN es un token que se genera en sonarcloud
 # FTP_SERVER_STG servidor de hostinger
 # FTP_USERNAME_STG usuario de ftp de hostinger
