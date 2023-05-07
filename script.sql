@@ -1,6 +1,3 @@
---
--- Estructura de tabla para la tabla `usuarios`
---
 
 CREATE TABLE `usuarios` (
   `id` int(200) NOT NULL,
@@ -12,9 +9,7 @@ CREATE TABLE `usuarios` (
   `localidad` varchar(100) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Volcado de datos para la tabla `usuarios`
---
+
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `dni`, `edad`, `direccion`, `localidad`) VALUES
 (5, 'gaston', 'barbaccia', '35', '100', 'Beltran ', 'Grand Bourg'),
@@ -23,15 +18,11 @@ INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `dni`, `edad`, `direccion`, 
 (13, 'gaston', 'barbaccia', '35991682', '31', 'Beltran 1541', 'Grand Bourg'),
 (14, 'gaston', 'barbaccia', '121212', '121212', 'Beltran 1612', 'Grand Bourg')
 
---
--- Indices de la tabla `usuarios`
---
+
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT de la tabla `usuarios`
---
+
 ALTER TABLE `usuarios`
   MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
