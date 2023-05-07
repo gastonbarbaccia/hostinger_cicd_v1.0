@@ -24,6 +24,8 @@ DROP DATABASE `u666073011_gastondevops`;
 
 CREATE DATABASE `u666073011_gastondevops`;
 
+USE `u666073011_gastondevops`;
+
 -- --------------------------------------------------------
 
 --
