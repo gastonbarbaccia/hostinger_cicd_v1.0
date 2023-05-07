@@ -9,6 +9,11 @@ name: DevOps Pipeline
 # FTP_SERVER_PRD servidor de hostinger
 # FTP_USERNAME_PRD usuario de ftp de hostinger
 # FTP_PASSWORD_PRD contraseña del usuario de ftp
+# DATABASE_HOST servidor de la base de datos
+# DATABASE_PORT puerto de la base de datos. Defaut 3306
+# DATABASE_NAME nombre de la base de datos
+# DATABASE_USERNAME usuario de la base de datos
+# DATABASE_PASSWORD contraseña de la base de datos
 # Author: Gaston Barbaccia
 
 on:
