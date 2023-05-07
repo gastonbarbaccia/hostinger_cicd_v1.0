@@ -18,8 +18,11 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `censo`
+-- Base de datos: `u666073011_gastondevops`
 --
+DROP DATABASE `u666073011_gastondevops`;
+
+CREATE DATABASE `u666073011_gastondevops`;
 
 -- --------------------------------------------------------
 
