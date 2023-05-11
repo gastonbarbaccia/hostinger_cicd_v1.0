@@ -18,8 +18,15 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
+
 -- Base de datos: ``
+
 --
+DROP DATABASE `u666073011_gastondevops`;
+
+CREATE DATABASE `u666073011_gastondevops`;
+
+USE `u666073011_gastondevops`;
 
 -- --------------------------------------------------------
 
@@ -43,6 +50,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `dni`, `edad`, `direccion`, `localidad`) VALUES
 (5, 'gaston', 'barbaccia', '35', '100', 'Beltran ', 'Grand Bourg');
+
 --
 -- Índices para tablas volcadas
 --
