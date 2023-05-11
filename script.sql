@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `censo`
+-- Base de datos: ``
 --
 
 -- --------------------------------------------------------
@@ -42,11 +42,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `dni`, `edad`, `direccion`, `localidad`) VALUES
-(5, 'gaston', 'barbaccia', '35', '100', 'Beltran ', 'Grand Bourg'),
-(8, 'sharin', 'barbaccia', '35991682', '123', 'Beltran 1255123', 'Grand Bourg'),
-(9, 'gaston', 'barbaccia', '35991682', '10', 'Beltran 123', 'Grand Bourg'),
-(13, 'gaston', 'barbaccia', '35991682', '31', 'Beltran 1541', 'Grand Bourg'),
-(14, 'gaston', 'barbaccia', '121212', '121212', 'Beltran 1612', 'Grand Bourg')
+(5, 'gaston', 'barbaccia', '35', '100', 'Beltran ', 'Grand Bourg');
 --
 -- Índices para tablas volcadas
 --
